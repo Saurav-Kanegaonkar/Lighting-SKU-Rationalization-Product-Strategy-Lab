@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+SKU036,SKU family 36,Watch,97.47,51.1,82.1,840808
+SKU009,SKU family 9,Watch,93.69,50.4,81.2,789958
+SKU031,SKU family 31,Watch,93.30,49.2,81.3,795649
+SKU005,SKU family 5,Core,93.02,49.8,80.3,781879
+SKU032,SKU family 32,Core,91.43,49.0,79.6,763841
+SKU016,SKU family 16,Watch,90.14,53.1,80.1,711681
+SKU013,SKU family 13,Growth,87.52,50.9,80.7,696870
+SKU004,SKU family 4,Growth,82.24,51.7,81.0,617061
+SKU008,SKU family 8,Strategic,82.10,49.9,79.8,625725
+SKU015,SKU family 15,Strategic,81.88,54.5,79.6,581452
+SKU006,SKU family 6,Growth,81.81,53.1,80.4,596703
+SKU017,SKU family 17,Core,79.98,50.6,79.1,586983
+SKU033,SKU family 33,Watch,79.33,52.6,79.7,562960
+SKU023,SKU family 23,Strategic,79.24,51.9,80.5,571773
+SKU025,SKU family 25,Strategic,78.55,48.9,80.6,588538
+SKU024,SKU family 24,Growth,78.48,52.6,79.8,552017
+SKU007,SKU family 7,Core,78.45,53.6,80.4,545442
+SKU035,SKU family 35,Core,77.23,49.9,81.0,562796
+SKU012,SKU family 12,Strategic,76.78,51.7,80.7,539596
+SKU026,SKU family 26,Growth,76.20,50.2,81.4,547538
+SKU019,SKU family 19,Growth,73.52,50.0,79.2,501868
+SKU014,SKU family 14,Growth,73.46,49.1,80.7,516167
+SKU001,SKU family 1,Growth,73.04,55.3,81.7,459909
+SKU002,SKU family 2,Watch,72.98,49.2,79.2,501697
+SKU022,SKU family 22,Growth,72.72,52.6,80.8,475650
