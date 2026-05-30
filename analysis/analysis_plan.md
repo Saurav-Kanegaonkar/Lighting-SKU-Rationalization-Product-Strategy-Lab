@@ -1,6 +1,6 @@
 # Analysis Plan
 
-1. Aggregate daily metrics at SKU family grain.
-2. Join events and action candidates to find high-risk operating segments.
-3. Rank the queue by risk, quality, and estimated impact.
-4. Convert the top issues into stakeholder-ready recommendations.
+1. Score each SKU family on long-tail complexity, margin gap, order velocity, lead time, quality drag, and channel fit.
+2. Group results into prune, improve, refresh, launch review, and monitor moves.
+3. Translate the queue into cross-functional work artifacts: variant maps, cut sheets, sell sheets, cost reviews, field surveys, and sales FAQs.
+4. Review top-ranked families with product, sales, engineering, operations, and marketing before changing public offers.

@@ -2,14 +2,15 @@
 
 ## What I analyzed
 
-I joined 5,040 daily metric rows, 760 source events, and 220 action candidates for lighting product SKU rationalization, margin improvement, and channel launch strategy.
+I modeled 40 lighting SKU families across product category, lifecycle, channel, margin, velocity, lead time, certification burden, and launch readiness.
 
 ## Findings
 
-- The highest-priority SKU family is SKU036 with a priority score of 97.47.
-- The top queue combines 51.1 average risk with 82.1 quality score and $840,808 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+- The top rationalization queue contains 3 SKU families with a score of 65 or higher.
+- Modeled annual revenue across the portfolio is $13,707,266.
+- 5 SKU families are strong enough for launch or collateral acceleration after pruning, pricing, or variant cleanup.
+- The highest priority family is Acoustic Baffles Family 3 with a score of 76.2.
 
 ## Recommendation
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which SKU family risks need action, validation, or monitoring.
+Use the priority queue to separate prune, improve, refresh, and monitor decisions before asking sales, engineering, marketing, and operations to act.

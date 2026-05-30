@@ -1,8 +1,16 @@
 # Data Sources
 
-Synthetic source-style data for lighting product SKU rationalization, margin improvement, and channel launch strategy.
+This project uses synthetic, source-style data. It does not represent any real company performance.
 
-- `entities.csv`: 36 SKU family records.
-- `daily_metrics.csv`: 5,040 SKU family-day metric rows.
-- `source_events.csv`: 760 operational events, QA checks, experiments, and stakeholder asks.
-- `recommended_actions.csv`: 220 candidate actions with effort and expected lift.
+The synthetic structure is modeled on common architectural lighting portfolio patterns: product families, lifecycle stages, long-tail SKU variants, quote activity, order velocity, lead time, certification burden, sample demand, channel fit, and collateral readiness.
+
+- `entities.csv`: 40 SKU family records across lighting and acoustic product categories.
+- `daily_metrics.csv`: 7,200 SKU family-day metric rows.
+- `source_events.csv`: operating events, sales asks, quality signals, collateral gaps, and engineering reviews.
+- `recommended_actions.csv`: one action recommendation per SKU family.
+
+The data can be regenerated with:
+
+```bash
+python3 scripts/generate_synthetic_data.py
+```

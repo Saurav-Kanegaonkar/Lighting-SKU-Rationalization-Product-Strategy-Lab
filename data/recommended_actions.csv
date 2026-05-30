@@ -1,221 +1,41 @@
-action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
-ACT0001,SKU011,monitor,20,13.1,Proposed
-ACT0002,SKU017,automate,35,18.0,Complete
-ACT0003,SKU018,monitor,16,20.8,In Review
-ACT0004,SKU015,document,9,20.9,In Review
-ACT0005,SKU016,monitor,18,13.1,Ready
-ACT0006,SKU012,prioritize,8,6.9,Complete
-ACT0007,SKU024,validate,42,7.3,In Review
-ACT0008,SKU031,escalate,6,19.3,Ready
-ACT0009,SKU036,validate,29,15.6,Ready
-ACT0010,SKU030,escalate,12,6.8,In Review
-ACT0011,SKU002,automate,32,17.1,Proposed
-ACT0012,SKU002,prioritize,38,14.3,Complete
-ACT0013,SKU030,document,8,7.8,In Review
-ACT0014,SKU035,validate,36,16.3,Complete
-ACT0015,SKU028,escalate,5,17.6,Complete
-ACT0016,SKU035,prioritize,17,15.2,Complete
-ACT0017,SKU026,escalate,24,11.1,In Review
-ACT0018,SKU002,monitor,27,16.5,Proposed
-ACT0019,SKU019,monitor,24,12.0,Ready
-ACT0020,SKU005,automate,20,9.8,Complete
-ACT0021,SKU031,validate,31,7.5,Complete
-ACT0022,SKU011,automate,33,15.3,Ready
-ACT0023,SKU004,prioritize,35,7.4,Ready
-ACT0024,SKU005,automate,7,3.6,Proposed
-ACT0025,SKU001,monitor,11,10.5,Proposed
-ACT0026,SKU013,monitor,44,3.9,Complete
-ACT0027,SKU015,escalate,37,12.1,Ready
-ACT0028,SKU029,prioritize,38,4.3,In Review
-ACT0029,SKU025,document,33,19.6,Proposed
-ACT0030,SKU023,escalate,32,8.9,Proposed
-ACT0031,SKU001,validate,28,13.2,In Review
-ACT0032,SKU005,validate,36,4.2,Ready
-ACT0033,SKU019,prioritize,14,18.7,Complete
-ACT0034,SKU010,monitor,25,7.2,In Review
-ACT0035,SKU013,escalate,42,20.1,In Review
-ACT0036,SKU007,escalate,4,18.7,Ready
-ACT0037,SKU034,validate,38,9.4,Ready
-ACT0038,SKU013,prioritize,11,8.9,Ready
-ACT0039,SKU032,escalate,28,2.4,Ready
-ACT0040,SKU031,automate,34,2.5,In Review
-ACT0041,SKU005,automate,11,9.9,Complete
-ACT0042,SKU003,escalate,7,20.3,In Review
-ACT0043,SKU035,document,8,19.9,Ready
-ACT0044,SKU021,prioritize,16,19.7,In Review
-ACT0045,SKU008,validate,18,19.8,Ready
-ACT0046,SKU013,document,11,4.9,Proposed
-ACT0047,SKU018,prioritize,28,7.5,Ready
-ACT0048,SKU015,escalate,4,18.1,Ready
-ACT0049,SKU023,validate,16,3.9,Proposed
-ACT0050,SKU012,escalate,31,5.8,In Review
-ACT0051,SKU023,validate,17,8.0,Proposed
-ACT0052,SKU034,monitor,3,12.5,In Review
-ACT0053,SKU004,prioritize,8,16.3,Proposed
-ACT0054,SKU008,automate,23,8.3,In Review
-ACT0055,SKU020,escalate,13,20.6,Ready
-ACT0056,SKU032,prioritize,13,14.3,Ready
-ACT0057,SKU018,automate,41,21.7,Proposed
-ACT0058,SKU025,escalate,14,3.1,In Review
-ACT0059,SKU031,document,25,2.9,In Review
-ACT0060,SKU013,validate,7,20.4,Proposed
-ACT0061,SKU016,document,8,9.3,Ready
-ACT0062,SKU031,validate,33,15.5,Proposed
-ACT0063,SKU024,escalate,39,20.4,In Review
-ACT0064,SKU020,prioritize,22,23.4,Ready
-ACT0065,SKU034,document,33,10.6,Complete
-ACT0066,SKU017,document,19,23.2,In Review
-ACT0067,SKU022,document,5,13.3,Complete
-ACT0068,SKU023,monitor,36,15.4,Ready
-ACT0069,SKU028,monitor,40,12.2,Complete
-ACT0070,SKU030,monitor,42,21.4,Proposed
-ACT0071,SKU017,automate,4,23.2,Ready
-ACT0072,SKU025,prioritize,8,3.9,Ready
-ACT0073,SKU022,document,35,22.9,Ready
-ACT0074,SKU018,escalate,7,16.3,Complete
-ACT0075,SKU016,escalate,27,6.7,Proposed
-ACT0076,SKU026,automate,18,21.0,Complete
-ACT0077,SKU015,monitor,27,12.0,Ready
-ACT0078,SKU036,document,23,18.0,In Review
-ACT0079,SKU007,prioritize,12,2.9,Ready
-ACT0080,SKU036,prioritize,9,2.4,In Review
-ACT0081,SKU007,prioritize,22,11.1,Ready
-ACT0082,SKU032,escalate,30,22.7,Ready
-ACT0083,SKU018,document,7,11.8,Proposed
-ACT0084,SKU023,monitor,44,13.2,Complete
-ACT0085,SKU015,escalate,11,18.5,Complete
-ACT0086,SKU003,monitor,37,22.4,Ready
-ACT0087,SKU015,monitor,38,10.4,Complete
-ACT0088,SKU021,validate,41,2.2,Ready
-ACT0089,SKU019,validate,42,10.2,Ready
-ACT0090,SKU001,validate,27,22.0,In Review
-ACT0091,SKU002,prioritize,24,2.2,In Review
-ACT0092,SKU035,validate,21,14.7,Complete
-ACT0093,SKU011,validate,12,15.7,Ready
-ACT0094,SKU016,prioritize,28,22.8,Ready
-ACT0095,SKU012,monitor,28,8.9,Ready
-ACT0096,SKU011,validate,26,10.5,Complete
-ACT0097,SKU005,prioritize,44,23.1,Complete
-ACT0098,SKU017,escalate,22,9.5,In Review
-ACT0099,SKU010,escalate,13,23.5,Ready
-ACT0100,SKU030,automate,13,9.6,In Review
-ACT0101,SKU023,escalate,20,13.2,Proposed
-ACT0102,SKU025,document,25,19.9,In Review
-ACT0103,SKU001,validate,9,17.6,Proposed
-ACT0104,SKU003,automate,3,9.2,Ready
-ACT0105,SKU028,automate,39,7.5,In Review
-ACT0106,SKU036,escalate,13,13.8,Ready
-ACT0107,SKU015,automate,18,13.5,Proposed
-ACT0108,SKU021,document,25,7.8,In Review
-ACT0109,SKU015,document,8,23.0,Proposed
-ACT0110,SKU022,automate,28,9.0,In Review
-ACT0111,SKU019,automate,7,15.5,Ready
-ACT0112,SKU011,automate,20,11.8,Complete
-ACT0113,SKU022,validate,39,6.6,Complete
-ACT0114,SKU025,prioritize,4,10.2,In Review
-ACT0115,SKU003,prioritize,2,20.4,Complete
-ACT0116,SKU032,monitor,7,16.9,Complete
-ACT0117,SKU010,escalate,33,3.4,Complete
-ACT0118,SKU035,monitor,2,13.3,Proposed
-ACT0119,SKU017,prioritize,10,22.6,In Review
-ACT0120,SKU008,validate,20,5.9,In Review
-ACT0121,SKU017,escalate,38,6.2,In Review
-ACT0122,SKU002,monitor,27,18.4,Proposed
-ACT0123,SKU009,monitor,42,3.5,Ready
-ACT0124,SKU019,prioritize,29,10.4,In Review
-ACT0125,SKU013,monitor,24,14.3,Proposed
-ACT0126,SKU017,document,26,13.7,Ready
-ACT0127,SKU036,escalate,3,6.2,Complete
-ACT0128,SKU018,prioritize,26,23.8,In Review
-ACT0129,SKU020,validate,15,2.6,Ready
-ACT0130,SKU011,escalate,11,7.8,Complete
-ACT0131,SKU033,prioritize,34,10.4,Complete
-ACT0132,SKU023,validate,32,23.8,In Review
-ACT0133,SKU014,monitor,33,10.3,In Review
-ACT0134,SKU026,prioritize,37,17.2,Complete
-ACT0135,SKU035,document,38,8.2,Ready
-ACT0136,SKU029,validate,32,11.0,Complete
-ACT0137,SKU014,document,26,16.3,Ready
-ACT0138,SKU021,escalate,16,8.7,Ready
-ACT0139,SKU032,document,44,2.3,Complete
-ACT0140,SKU019,escalate,11,4.2,In Review
-ACT0141,SKU035,monitor,12,20.4,In Review
-ACT0142,SKU011,document,25,23.4,Complete
-ACT0143,SKU013,automate,41,11.1,In Review
-ACT0144,SKU015,document,30,20.0,In Review
-ACT0145,SKU004,monitor,29,8.3,Ready
-ACT0146,SKU011,document,29,9.5,Proposed
-ACT0147,SKU002,validate,38,11.6,Ready
-ACT0148,SKU008,validate,28,8.3,Proposed
-ACT0149,SKU014,validate,43,10.1,Complete
-ACT0150,SKU033,monitor,36,18.1,Ready
-ACT0151,SKU012,escalate,40,23.6,Complete
-ACT0152,SKU029,automate,31,5.1,Proposed
-ACT0153,SKU001,automate,33,7.3,Proposed
-ACT0154,SKU021,prioritize,32,15.4,Ready
-ACT0155,SKU027,validate,9,14.5,In Review
-ACT0156,SKU012,prioritize,11,21.6,Proposed
-ACT0157,SKU018,automate,18,19.7,Ready
-ACT0158,SKU020,validate,37,19.5,Proposed
-ACT0159,SKU002,escalate,34,15.0,In Review
-ACT0160,SKU027,automate,8,7.9,Proposed
-ACT0161,SKU023,document,44,5.9,In Review
-ACT0162,SKU023,monitor,13,3.7,Proposed
-ACT0163,SKU026,document,27,3.3,In Review
-ACT0164,SKU023,monitor,32,16.0,Complete
-ACT0165,SKU003,automate,22,7.0,In Review
-ACT0166,SKU024,validate,6,20.0,In Review
-ACT0167,SKU019,validate,42,4.3,Proposed
-ACT0168,SKU023,automate,13,9.2,In Review
-ACT0169,SKU025,validate,26,2.9,Ready
-ACT0170,SKU014,escalate,40,18.0,Ready
-ACT0171,SKU035,validate,9,15.4,Complete
-ACT0172,SKU005,prioritize,30,3.2,In Review
-ACT0173,SKU019,automate,38,10.6,In Review
-ACT0174,SKU021,escalate,14,23.5,Ready
-ACT0175,SKU036,document,37,18.8,Complete
-ACT0176,SKU032,escalate,39,19.3,In Review
-ACT0177,SKU030,prioritize,37,12.9,Ready
-ACT0178,SKU001,prioritize,24,5.6,In Review
-ACT0179,SKU021,prioritize,14,10.7,Proposed
-ACT0180,SKU030,automate,2,18.0,Proposed
-ACT0181,SKU025,document,19,17.6,Proposed
-ACT0182,SKU030,escalate,26,23.6,Proposed
-ACT0183,SKU012,document,24,10.2,Ready
-ACT0184,SKU016,document,13,8.9,Proposed
-ACT0185,SKU017,document,17,22.3,In Review
-ACT0186,SKU021,monitor,9,12.9,In Review
-ACT0187,SKU035,automate,34,12.9,In Review
-ACT0188,SKU031,monitor,31,9.1,Proposed
-ACT0189,SKU008,prioritize,41,19.1,In Review
-ACT0190,SKU021,document,28,10.3,Complete
-ACT0191,SKU006,automate,41,13.8,Proposed
-ACT0192,SKU004,validate,6,13.2,Proposed
-ACT0193,SKU028,escalate,23,2.0,In Review
-ACT0194,SKU029,automate,28,14.6,Complete
-ACT0195,SKU014,document,19,12.2,In Review
-ACT0196,SKU008,document,16,12.0,Proposed
-ACT0197,SKU036,document,25,12.6,Proposed
-ACT0198,SKU003,document,8,5.9,Ready
-ACT0199,SKU028,monitor,10,23.5,Proposed
-ACT0200,SKU015,automate,14,11.0,Complete
-ACT0201,SKU013,escalate,6,20.6,In Review
-ACT0202,SKU026,validate,15,13.7,Complete
-ACT0203,SKU033,document,36,21.2,Complete
-ACT0204,SKU012,escalate,6,10.4,Proposed
-ACT0205,SKU007,document,37,16.9,Complete
-ACT0206,SKU011,automate,36,19.8,Ready
-ACT0207,SKU001,prioritize,18,21.4,Complete
-ACT0208,SKU032,escalate,8,19.9,Proposed
-ACT0209,SKU034,monitor,32,17.1,Ready
-ACT0210,SKU026,document,2,15.6,Ready
-ACT0211,SKU016,document,25,23.7,Proposed
-ACT0212,SKU028,monitor,15,12.2,In Review
-ACT0213,SKU012,escalate,39,10.8,In Review
-ACT0214,SKU019,document,5,9.7,Ready
-ACT0215,SKU028,document,26,10.1,In Review
-ACT0216,SKU005,prioritize,19,11.6,Complete
-ACT0217,SKU015,automate,42,5.7,In Review
-ACT0218,SKU007,document,40,9.8,Ready
-ACT0219,SKU014,escalate,21,12.6,Proposed
-ACT0220,SKU030,validate,19,12.3,Proposed
+action_id,entity_id,recommended_move,owner,effort,expected_margin_lift_pts,revenue_at_risk,launch_readiness,next_artifact
+ACT-SKU001,SKU001,Monitor in quarterly review,Operations,Medium,7.5,90818.83,65,Variant map
+ACT-SKU002,SKU002,Monitor in quarterly review,Product,Medium,1.4,119258.58,60,Sell sheet
+ACT-SKU003,SKU003,Simplify stocked options,Marketing,Medium,1.6,35409.75,65,Cut sheet
+ACT-SKU004,SKU004,Monitor in quarterly review,Engineering,Low,2.2,39255.43,75,Sell sheet
+ACT-SKU005,SKU005,Improve cost or pricing,Engineering,Medium,9.0,29997.54,55,Field survey
+ACT-SKU006,SKU006,Improve cost or pricing,Engineering,Medium,9.4,43116.75,59,Cost review
+ACT-SKU007,SKU007,Run launch readiness review,Marketing,Low,5.5,43713.38,69,Variant map
+ACT-SKU008,SKU008,Improve cost or pricing,Product,Low,9.4,42100.8,52,Variant map
+ACT-SKU009,SKU009,Improve cost or pricing,Marketing,Low,9.4,82103.91,65,Field survey
+ACT-SKU010,SKU010,Improve cost or pricing,Product,High,8.1,188023.57,42,Sales FAQ
+ACT-SKU011,SKU011,Monitor in quarterly review,Sales,Medium,7.4,118053.94,66,Sales FAQ
+ACT-SKU012,SKU012,Simplify stocked options,Engineering,Medium,5.7,194825.13,61,Cut sheet
+ACT-SKU013,SKU013,Monitor in quarterly review,Engineering,Medium,1.2,119286.83,60,Sales FAQ
+ACT-SKU014,SKU014,Monitor in quarterly review,Marketing,Low,1.5,229559.68,65,Cut sheet
+ACT-SKU015,SKU015,Monitor in quarterly review,Product,Low,5.8,50643.99,70,Variant map
+ACT-SKU016,SKU016,Monitor in quarterly review,Product,Medium,1.2,128309.5,62,Variant map
+ACT-SKU017,SKU017,Monitor in quarterly review,Product,Medium,1.2,56475.77,61,Cut sheet
+ACT-SKU018,SKU018,Monitor in quarterly review,Marketing,Medium,6.3,146700.9,66,Field survey
+ACT-SKU019,SKU019,Simplify stocked options,Engineering,High,2.0,83938.52,54,Variant map
+ACT-SKU020,SKU020,Improve cost or pricing,Marketing,Medium,9.4,50717.08,60,Sell sheet
+ACT-SKU021,SKU021,Improve cost or pricing,Engineering,High,9.4,188308.47,63,Cut sheet
+ACT-SKU022,SKU022,Monitor in quarterly review,Sales,High,1.2,51888.24,54,Field survey
+ACT-SKU023,SKU023,Prune redundant variants,Operations,High,3.0,220355.08,60,Sales FAQ
+ACT-SKU024,SKU024,Simplify stocked options,Marketing,High,1.2,95152.33,63,Sell sheet
+ACT-SKU025,SKU025,Simplify stocked options,Marketing,Medium,1.5,91080.09,66,Sell sheet
+ACT-SKU026,SKU026,Simplify stocked options,Product,Low,1.5,93934.36,72,Variant map
+ACT-SKU027,SKU027,Monitor in quarterly review,Marketing,High,4.0,251413.1,58,Variant map
+ACT-SKU028,SKU028,Monitor in quarterly review,Marketing,Medium,5.6,80496.53,72,Sell sheet
+ACT-SKU029,SKU029,Monitor in quarterly review,Sales,Medium,2.9,21060.17,67,Cost review
+ACT-SKU030,SKU030,Run launch readiness review,Marketing,High,1.2,39215.77,60,Cost review
+ACT-SKU031,SKU031,Improve cost or pricing,Engineering,Medium,9.3,127548.81,59,Field survey
+ACT-SKU032,SKU032,Monitor in quarterly review,Sales,Medium,1.2,151731.77,55,Sales FAQ
+ACT-SKU033,SKU033,Improve cost or pricing,Engineering,Low,9.4,63882.96,75,Sales FAQ
+ACT-SKU034,SKU034,Monitor in quarterly review,Sales,Medium,4.6,83790.94,56,Variant map
+ACT-SKU035,SKU035,Monitor in quarterly review,Engineering,Medium,1.2,32403.0,64,Variant map
+ACT-SKU036,SKU036,Simplify stocked options,Marketing,High,6.8,136764.87,57,Cut sheet
+ACT-SKU037,SKU037,Monitor in quarterly review,Operations,Medium,1.2,36484.75,58,Cost review
+ACT-SKU038,SKU038,Monitor in quarterly review,Product,Medium,3.7,62441.35,61,Sell sheet
+ACT-SKU039,SKU039,Monitor in quarterly review,Product,Medium,1.2,86299.29,68,Sales FAQ
+ACT-SKU040,SKU040,Simplify stocked options,Product,Medium,1.2,38056.86,62,Cut sheet

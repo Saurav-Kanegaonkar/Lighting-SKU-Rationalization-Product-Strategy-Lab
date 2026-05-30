@@ -6,49 +6,101 @@
   <title>Lighting SKU Rationalization Product Strategy Lab</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#7c3aed;--bg:#f7f2ff">
-  <main class="shell">
-    <header class="hero">
+<body>
+  <main class="workspace">
+    <header class="topbar">
       <div>
-        <p class="eyebrow">Experiment Lab / lighting product SKU rationalization, margin improvement, and channel launch strategy</p>
-        <h1>Lighting SKU Rationalization Product Strategy Lab</h1>
+        <p class="eyebrow">Product strategy lab</p>
+        <h1>Lighting SKU Rationalization</h1>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy SKU family-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <nav class="tabs" aria-label="Artifact sections">
+        <button class="tab is-active" data-view="portfolio" type="button">Portfolio</button>
+        <button class="tab" data-view="queue" type="button">Queue</button>
+        <button class="tab" data-view="launch" type="button">Launch</button>
+      </nav>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>SKU familys</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <section class="summary" id="summary"></section>
+
+    <section class="view is-active" id="portfolio-view" aria-label="Portfolio health">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Portfolio health by product category</h2>
+        </div>
+        <p>Revenue, complexity, margin, and lifecycle signals are brought into one operating readout for product line review.</p>
+      </div>
+      <div class="portfolio-layout">
+        <section class="panel chart-panel">
+          <h3>Revenue concentration and rationalization risk</h3>
+          <div id="category-chart" class="bar-list"></div>
+        </section>
+        <section class="panel">
+          <h3>Category mix</h3>
+          <div id="category-mix" class="category-grid"></div>
+        </section>
+      </div>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Hypothesis</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>SKU family</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Power risk</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Experiment readout</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
+
+    <section class="view" id="queue-view" aria-label="Rationalization queue">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>Rationalization decision queue</h2>
+        </div>
+        <p>Each SKU family is translated into a product move with expected margin lift, effort, and handoff artifact.</p>
+      </div>
+      <section class="panel table-panel">
+        <div class="table-toolbar">
+          <h3>Top priority families</h3>
+          <select id="move-filter" aria-label="Filter by move">
+            <option value="All">All moves</option>
+          </select>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>SKU family</th>
+                <th>Lifecycle</th>
+                <th>Score</th>
+                <th>Margin</th>
+                <th>SKUs</th>
+                <th>Move</th>
+                <th>Lift</th>
+              </tr>
+            </thead>
+            <tbody id="queue-table"></tbody>
+          </table>
+        </div>
+      </section>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value SKU family segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="view" id="launch-view" aria-label="Launch and channel readiness">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Launch and channel execution plan</h2>
+        </div>
+        <p>The same analysis becomes an execution board for collateral, cost reviews, field input, and sales enablement.</p>
+      </div>
+      <div class="launch-layout">
+        <section class="panel">
+          <h3>Readiness by next artifact</h3>
+          <div id="readiness-board" class="readiness-board"></div>
+        </section>
+        <section class="panel">
+          <h3>90 day operating cadence</h3>
+          <ol class="cadence">
+            <li><strong>Weeks 1-2</strong><span>Validate product family definitions, map duplicate variants, and confirm channel owner input.</span></li>
+            <li><strong>Weeks 3-6</strong><span>Advance prune, pricing, and collateral workstreams with engineering, operations, marketing, and sales.</span></li>
+            <li><strong>Weeks 7-12</strong><span>Package launch updates, sales FAQ, cut sheets, and quarterly SKU review decisions.</span></li>
+          </ol>
+        </section>
+      </div>
     </section>
   </main>
+  <script src="src/app.js" type="module"></script>
 </body>
 </html>

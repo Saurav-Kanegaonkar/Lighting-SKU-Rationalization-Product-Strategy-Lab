@@ -1,17 +1,5 @@
--- Priority queue foundation
-select
-  entity_id,
-  avg(risk_score) as avg_risk_score,
-  avg(quality_score) as avg_quality_score,
-  sum(value_pool) as value_pool
-from daily_metrics
-group by 1
-order by avg_risk_score desc;
-
--- Action readiness
-select
-  action_type,
-  avg(expected_lift_pct) as expected_lift,
-  avg(effort_hours) as effort_hours
-from recommended_actions
-group by 1;
+-- Checks for SKU rationalization source tables
+select entity_id, count(*) from daily_metrics group by entity_id having count(*) <> 180;
+select entity_id from entities where gross_margin_pct < 0 or gross_margin_pct > 1;
+select entity_id from entities where active_skus <= 0 or order_velocity < 0;
+select entity_id from recommended_actions where recommended_move is null;

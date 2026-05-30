@@ -1,37 +1,41 @@
-entity_id,entity_name,segment,owner
-SKU001,SKU family 1,Growth,Analytics
-SKU002,SKU family 2,Watch,Customer
-SKU003,SKU family 3,Growth,Customer
-SKU004,SKU family 4,Growth,Analytics
-SKU005,SKU family 5,Core,Operations
-SKU006,SKU family 6,Growth,Analytics
-SKU007,SKU family 7,Core,Analytics
-SKU008,SKU family 8,Strategic,Analytics
-SKU009,SKU family 9,Watch,Analytics
-SKU010,SKU family 10,Strategic,Analytics
-SKU011,SKU family 11,Growth,Operations
-SKU012,SKU family 12,Strategic,Operations
-SKU013,SKU family 13,Growth,Customer
-SKU014,SKU family 14,Growth,Customer
-SKU015,SKU family 15,Strategic,Customer
-SKU016,SKU family 16,Watch,Analytics
-SKU017,SKU family 17,Core,Revenue
-SKU018,SKU family 18,Watch,Analytics
-SKU019,SKU family 19,Growth,Analytics
-SKU020,SKU family 20,Growth,Analytics
-SKU021,SKU family 21,Core,Revenue
-SKU022,SKU family 22,Growth,Product
-SKU023,SKU family 23,Strategic,Revenue
-SKU024,SKU family 24,Growth,Customer
-SKU025,SKU family 25,Strategic,Analytics
-SKU026,SKU family 26,Growth,Analytics
-SKU027,SKU family 27,Strategic,Analytics
-SKU028,SKU family 28,Core,Revenue
-SKU029,SKU family 29,Watch,Customer
-SKU030,SKU family 30,Strategic,Customer
-SKU031,SKU family 31,Watch,Operations
-SKU032,SKU family 32,Core,Product
-SKU033,SKU family 33,Watch,Revenue
-SKU034,SKU family 34,Core,Analytics
-SKU035,SKU family 35,Core,Product
-SKU036,SKU family 36,Watch,Customer
+entity_id,entity_name,category,platform,lifecycle,primary_channel,owner,active_skus,annual_revenue,gross_margin_pct,order_velocity,quote_count,sample_requests,quote_win_rate,return_rate,lead_time_days,complexity_index,certification_count,channel_fit,strategic_fit,rationalization_score,recommended_move
+SKU001,Recessed Linear Family 1,Recessed Linear,Specification,Core,Specifier,Operations,31,309024.39,0.345,16.3,107,50,0.262,0.069,24,70,2,93,74,52.9,Monitor in quarterly review
+SKU002,Recessed Linear Family 2,Recessed Linear,Specification,Core,Distributor,Product,43,452880.67,0.406,15.6,125,73,0.432,0.028,21,69,2,80,70,47.4,Monitor in quarterly review
+SKU003,Recessed Linear Family 3,Recessed Linear,Specification,Core,Specifier,Marketing,26,184212.59,0.404,24.4,189,72,0.447,0.047,28,50,7,88,57,34.6,Simplify stocked options
+SKU004,Recessed Linear Family 4,Recessed Linear,Specification,Decline,Contractor,Engineering,40,155981.83,0.398,10.1,191,100,0.31,0.029,20,34,5,88,71,45.3,Monitor in quarterly review
+SKU005,Recessed Linear Family 5,Recessed Linear,Specification,Launch,Distributor,Engineering,27,108862.03,0.33,16.2,108,95,0.326,0.039,23,63,7,60,70,49.6,Improve cost or pricing
+SKU006,Suspended Linear Family 1,Suspended Linear,Specification,Decline,Contractor,Engineering,47,116182.86,0.317,14.7,134,98,0.448,0.037,26,61,2,70,70,66.8,Improve cost or pricing
+SKU007,Suspended Linear Family 2,Suspended Linear,Specification,Launch,Agent,Marketing,34,189600.19,0.365,13.9,84,99,0.484,0.02,23,46,3,77,77,41.5,Run launch readiness review
+SKU008,Suspended Linear Family 3,Suspended Linear,Specification,Growth,Agent,Product,46,132949.91,0.318,21.5,146,65,0.373,0.049,18,44,4,53,47,57.0,Improve cost or pricing
+SKU009,Suspended Linear Family 4,Suspended Linear,Specification,Core,Contractor,Marketing,21,412812.95,0.323,19.5,195,70,0.388,0.042,22,43,5,80,60,35.8,Improve cost or pricing
+SKU010,Suspended Linear Family 5,Suspended Linear,Specification,Core,Agent,Product,43,630246.59,0.339,23.0,113,70,0.444,0.017,17,94,3,65,57,53.7,Improve cost or pricing
+SKU011,Architectural Downlights Family 1,Architectural Downlights,Specification,Decline,Distributor,Sales,44,336229.57,0.346,7.9,179,103,0.438,0.02,18,60,3,70,88,63.2,Monitor in quarterly review
+SKU012,Architectural Downlights Family 2,Architectural Downlights,Specification,Mature,Agent,Engineering,44,585451.14,0.363,14.2,196,107,0.304,0.05,27,57,4,74,67,59.9,Simplify stocked options
+SKU013,Architectural Downlights Family 3,Architectural Downlights,Specification,Core,Contractor,Engineering,40,502848.48,0.427,25.8,124,104,0.367,0.037,20,60,4,67,75,42.7,Monitor in quarterly review
+SKU014,Architectural Downlights Family 4,Architectural Downlights,Specification,Core,Contractor,Marketing,38,892456.63,0.405,11.0,148,43,0.391,0.033,23,41,2,90,48,46.3,Monitor in quarterly review
+SKU015,Architectural Downlights Family 5,Architectural Downlights,Specification,Mature,Healthcare,Product,51,196888.08,0.362,18.8,129,112,0.356,0.029,22,33,5,66,79,46.3,Monitor in quarterly review
+SKU016,Acoustic Pendants Family 1,Acoustic Pendants,Acoustic,Core,Agent,Product,34,557867.4,0.445,20.1,138,104,0.324,0.044,24,51,3,62,75,41.4,Monitor in quarterly review
+SKU017,Acoustic Pendants Family 2,Acoustic Pendants,Acoustic,Core,Healthcare,Product,39,243780.29,0.432,31,172,122,0.375,0.033,21,71,4,83,72,41.7,Monitor in quarterly review
+SKU018,Acoustic Pendants Family 3,Acoustic Pendants,Acoustic,Core,Healthcare,Marketing,39,618411.28,0.357,20.0,177,106,0.373,0.036,18,71,7,93,76,42.7,Monitor in quarterly review
+SKU019,Acoustic Pendants Family 4,Acoustic Pendants,Acoustic,Growth,Healthcare,Engineering,34,307092.15,0.4,27.0,175,103,0.415,0.043,29,83,6,76,70,49.2,Simplify stocked options
+SKU020,Acoustic Pendants Family 5,Acoustic Pendants,Acoustic,Growth,Distributor,Marketing,42,147719.66,0.321,28.2,151,113,0.425,0.065,23,72,3,83,70,61.8,Improve cost or pricing
+SKU021,Acoustic Baffles Family 1,Acoustic Baffles,Acoustic,Core,Contractor,Engineering,50,522273.12,0.317,16.6,153,111,0.431,0.028,22,89,7,86,93,64.9,Improve cost or pricing
+SKU022,Acoustic Baffles Family 2,Acoustic Baffles,Acoustic,Mature,Agent,Sales,39,162999.72,0.472,10.8,162,131,0.35,0.008,25,74,7,63,74,57.3,Monitor in quarterly review
+SKU023,Acoustic Baffles Family 3,Acoustic Baffles,Acoustic,Mature,Contractor,Operations,60,520523.82,0.39,11.4,89,129,0.383,0.043,31,77,5,85,73,76.2,Prune redundant variants
+SKU024,Acoustic Baffles Family 4,Acoustic Baffles,Acoustic,Core,Contractor,Marketing,38,374779.43,0.42,23.3,133,64,0.344,0.029,27,75,5,76,88,45.7,Simplify stocked options
+SKU025,Acoustic Baffles Family 5,Acoustic Baffles,Acoustic,Launch,Healthcare,Marketing,59,245425.39,0.405,14.9,134,93,0.384,0.045,31,53,6,70,82,66.8,Simplify stocked options
+SKU026,Healthcare Luminaires Family 1,Healthcare Luminaires,Healthcare,Mature,Contractor,Product,33,357466.91,0.405,13.2,201,76,0.319,0.026,36,43,4,81,80,47.3,Simplify stocked options
+SKU027,Healthcare Luminaires Family 2,Healthcare Luminaires,Healthcare,Core,Healthcare,Marketing,45,798136.81,0.38,16.8,178,120,0.535,0.068,19,78,4,78,75,56.7,Monitor in quarterly review
+SKU028,Healthcare Luminaires Family 3,Healthcare Luminaires,Healthcare,Mature,Agent,Marketing,37,319853.77,0.364,16.8,121,116,0.35,0.058,20,60,6,96,80,45.3,Monitor in quarterly review
+SKU029,Healthcare Luminaires Family 4,Healthcare Luminaires,Healthcare,Mature,Distributor,Sales,49,86155.26,0.391,16.0,106,127,0.463,0.036,13,55,6,83,73,44.0,Monitor in quarterly review
+SKU030,Healthcare Luminaires Family 5,Healthcare Luminaires,Healthcare,Launch,Healthcare,Marketing,45,132934.81,0.485,17.3,171,132,0.474,0.055,22,78,3,88,70,53.1,Run launch readiness review
+SKU031,Contractor Packages Family 1,Contractor Packages,Contractor,Mature,Distributor,Engineering,39,465695.47,0.327,20.0,167,112,0.481,0.027,27,58,2,85,52,49.3,Improve cost or pricing
+SKU032,Contractor Packages Family 2,Contractor Packages,Contractor,Mature,Specifier,Sales,35,615128.81,0.41,12.0,154,48,0.459,0.034,13,59,2,70,56,44.4,Monitor in quarterly review
+SKU033,Contractor Packages Family 3,Contractor Packages,Contractor,Core,Agent,Engineering,44,216145.37,0.267,31,129,45,0.472,0.03,19,43,5,96,72,53.2,Improve cost or pricing
+SKU034,Contractor Packages Family 4,Contractor Packages,Contractor,Mature,Distributor,Sales,36,355716.26,0.374,26.2,106,104,0.362,0.032,25,67,3,80,56,42.4,Monitor in quarterly review
+SKU035,Contractor Packages Family 5,Contractor Packages,Contractor,Decline,Contractor,Engineering,40,123049.37,0.43,8.0,140,20,0.378,0.017,11,58,6,88,63,47.4,Monitor in quarterly review
+SKU036,Controls Ready Kits Family 1,Controls Ready Kits,Connected,Mature,Distributor,Marketing,24,543436.57,0.352,19.2,116,106,0.363,0.024,39,73,5,84,60,45.3,Simplify stocked options
+SKU037,Controls Ready Kits Family 2,Controls Ready Kits,Connected,Mature,Distributor,Operations,43,130821.82,0.424,19.2,157,85,0.373,0.059,23,60,3,74,61,50.2,Monitor in quarterly review
+SKU038,Controls Ready Kits Family 3,Controls Ready Kits,Connected,Core,Contractor,Product,45,227059.47,0.383,21.9,161,106,0.399,0.053,19,64,4,69,78,49.5,Monitor in quarterly review
+SKU039,Controls Ready Kits Family 4,Controls Ready Kits,Connected,Core,Healthcare,Product,56,310057.33,0.426,19.3,147,117,0.466,0.029,18,57,4,64,98,50.1,Monitor in quarterly review
+SKU040,Controls Ready Kits Family 5,Controls Ready Kits,Connected,Mature,Specifier,Product,46,118107.51,0.412,16.9,92,88,0.387,0.049,27,67,3,61,92,58.0,Simplify stocked options
